@@ -10,14 +10,14 @@ import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Profile from "./Components/Profile/Profile";
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
+
 import Contact from "./Components/Contact/Contact";
 import Careers from "./Components/Careers/Careers";
 function App() {
   return (
     <>
       <BrowserRouter>
-        {/* <Navbar/> */}
+        
 
         <Routes>
           <Route path="/" element={<Home />} />
